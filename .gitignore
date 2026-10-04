@@ -1,0 +1,10 @@
+# Python virtual environment (machine-specific — must NOT be shared/committed)
+.venv/
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+# OS junk
+.DS_Store
+Thumbs.db
+data/cache.db.backup

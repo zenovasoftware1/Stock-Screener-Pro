@@ -1,0 +1,9 @@
+# Version ranges are CAPPED to the tested-safe majors so that a fresh install
+# months/years from now cannot pull a future breaking release.
+numpy>=2.0,<3
+pandas>=2.2,<4
+jugaad-data>=0.27,<1
+yfinance>=0.2.40,<2
+rich>=13.7,<16
+click>=8.1,<9
+streamlit>=1.35,<2          # web UI (app.py); altair ships with it for the RRG chart

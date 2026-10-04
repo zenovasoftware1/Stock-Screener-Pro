@@ -1,0 +1,35 @@
+================================================================================
+ COPY EVERYTHING BELOW THE LINE AND PASTE IT INTO CLAUDE CODE
+ (open Claude Code inside this "Market Move" folder first, then paste)
+================================================================================
+
+I am NOT technical. Please set up and run this stock screener for me, doing all the
+work yourself and explaining each step in plain English. This folder already contains
+the complete app — do not rewrite or change any code, just get it running.
+
+Do this, in order:
+
+1. Check that Python 3.11 or newer is installed. If it isn't, give me the exact,
+   simple steps to install it for my operating system, then continue.
+
+2. In THIS folder, create a virtual environment named ".venv".
+
+3. Install the packages listed in requirements.txt into that .venv.
+
+4. Launch the web app by running:
+       .venv/bin/streamlit run app.py --server.port 8501
+   (on Windows use:  .venv\Scripts\streamlit run app.py --server.port 8501)
+   Then give me the clickable link (http://localhost:8501) and tell me to open it.
+
+5. If ANY step errors out, fix it yourself and tell me in simple terms what happened.
+   Do not ask me to debug anything.
+
+Important notes:
+- The price data is already included in the folder (in data/cache.db), so the app
+  should work immediately without downloading anything.
+- This is a stock screener for education/research, not financial advice.
+
+When the app is open in my browser and working, confirm it's ready and give me a
+1-paragraph "how to use it" summary.
+
+================================================================================
