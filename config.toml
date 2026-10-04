@@ -1,0 +1,11 @@
+# Bundled so the app starts cleanly on ANY machine, with no first-run prompts.
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true        # skips the first-run "enter your email" prompt; we open the browser ourselves
+port = 8501
+address = "localhost"
+
+[theme]
+base = "light"
